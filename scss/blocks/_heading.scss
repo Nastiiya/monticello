@@ -1,0 +1,17 @@
+.heading{
+  &__title{
+    font-family: $font-primary;
+    font-size: $font-size-heading;
+    line-height: 98px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+
+  &__subtitle{
+    font-family: $font-primary;
+    font-size: $font-size-description;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.3em;
+  }
+}

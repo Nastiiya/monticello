@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&family=Source+Sans+Pro&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/***********FONTS**********/
+/***********COLORS*********/
+/***********WIDTHS**********/
+/**********Breakpoints******/
+/**********Padding**********/
+body {
+  width: 100%;
+  max-width: 1900px;
+  min-width: 320px;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 100%;
+}
+
+html {
+  font-size: 18px;
+  color: #FFFFFF;
+  height: 100%;
+  min-height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+a {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header-navbar__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  align-items: center;
+}
+.header-navbar__link {
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.logo__link {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.circle {
+  border: 2px solid;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+}
+
+.scroll {
+  padding-bottom: 50px;
+}
+
+.heading__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  line-height: 98px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.heading__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.3em;
+}
+
+header {
+  width: 100%;
+}
+
+.header-hero {
+  background-image: url("../image/header-bg_full.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 53px;
+}
+
+.btn {
+  width: 213px;
+  height: 60px;
+  text-decoration: none;
+  background-color: #5373FD;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+}
+.btn__text {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.btn--narrow {
+  width: 139px;
+  height: 52px;
+  margin: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 44px;
+  text-transform: capitalize;
+  line-height: 40px;
+  font-weight: 400;
+}
+.title--bottom-padding {
+  padding-bottom: 24px;
+}
+
+/*# sourceMappingURL=style.css.map */

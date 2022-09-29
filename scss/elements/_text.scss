@@ -1,0 +1,12 @@
+.title{
+  font-family: $font-secondary;
+  font-size: $font-size-title;
+  text-transform: capitalize;
+  line-height: 40px;
+  font-weight: 400;
+
+  &--bottom-padding{
+    padding-bottom: 24px;
+  }
+}
+

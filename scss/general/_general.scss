@@ -1,0 +1,41 @@
+body{
+  width: 100%;
+  max-width: 1900px;
+  min-width: $sm;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 100%;
+}
+
+html{
+  font-size: $font-size-description;
+  color: $white-default;
+  height: 100%;
+  min-height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: $content-width;
+  margin: 0 auto;
+  box-sizing: border-box;
+  //padding-right: $lg-padding;
+  //padding-left: $lg-padding;
+
+  //@include media($md){
+  //  padding-right: $md-padding;
+  //  padding-left: $md-padding;
+  //}
+  //
+  //@include media($lg){
+  //  padding-right: $lg-padding;
+  //  padding-left: $lg-padding;
+  //}
+
+}
+
+a{
+  text-transform: uppercase;
+  color: $white-default;
+  text-decoration: none;
+}
